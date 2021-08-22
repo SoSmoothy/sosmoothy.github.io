@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #0A2239;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+header {
+  height: 3.5rem;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10000;
+}
+header .brand-name {
+  display: inline-block;
+}
+header .brand-name .brand-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  line-height: 3.5rem;
+  padding: 0 1.15rem;
+  font-size: 1.15rem;
+}
+header .brand-name .brand-text a:hover {
+  background-color: #ccc;
+  color: #0A2239;
+}
+header .nav-menu {
+  float: right;
+}
+header .nav-menu > ul {
+  list-style: none;
+  padding-left: 0;
+}
+header .nav-menu > ul > li {
+  display: inline-block;
+  position: relative;
+}
+header .nav-menu > ul > li a {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 3.5rem;
+  padding: 0 1.15rem;
+  color: #fff;
+}
+header .nav-menu > ul > li a:hover {
+  background-color: #ccc;
+  color: #0A2239;
+}
+header .nav-menu > ul > li .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #000;
+  text-align: left;
+}
+header .nav-menu > ul > li .sub-menu .sub-menu-list {
+  list-style: none;
+  min-width: 15rem;
+  padding-left: 0;
+}
+header .nav-menu > ul > li .sub-menu .sub-menu-list li {
+  display: block;
+  width: 100%;
+}
+header .nav-menu > ul > li .sub-menu .sub-menu-list li a {
+  display: inline-block;
+  width: 100%;
+}
+header .nav-menu > ul li:hover > a {
+  background-color: #ccc;
+  color: #0A2239;
+}
+header .nav-menu > ul li:hover .sub-menu {
+  display: block;
+}
+
+main {
+  margin-top: 3.5rem;
+}
+main .header {
+  height: 20rem;
+  text-align: center;
+  padding: 10rem 0;
+  margin-bottom: 5rem;
+}
+main .header .header-title {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+main .header .header-description {
+  color: #ccc;
+  opacity: 0.8;
+}
+main .header .header-description .ffe {
+  color: #fff;
+  opacity: 1;
+  font-weight: 500;
+}
+main .header .header-description .ffe:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+main .list-item .list {
+  list-style: none;
+}
+main .list-item .list li {
+  height: 4rem;
+  color: #fff;
+  line-height: 4rem;
+  font-size: 1.15rem;
+  background-color: #1D84B5;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+main .list-item .list li p {
+  display: inline-block;
+  padding-left: 1rem;
+}
+main .list-item .list li i {
+  float: right;
+  line-height: 4rem;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+main .list-item .list li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=index.css.map */

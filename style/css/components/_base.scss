@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #0A2239;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+}

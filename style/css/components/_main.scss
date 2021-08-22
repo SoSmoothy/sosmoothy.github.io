@@ -1,0 +1,63 @@
+main {
+    margin-top: 3.5rem;
+
+    .header {
+        height: 20rem;
+        text-align: center;
+        padding: 10rem 0;
+        margin-bottom: 5rem;
+
+        .header-title {
+            color: #fff;
+            margin-bottom: 3rem;
+        }
+
+        .header-description {
+            color: #ccc;
+            opacity: 0.8;
+
+            .ffe {
+                color: #fff;
+                opacity: 1;
+                font-weight: 500;
+            }
+
+            .ffe:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .list-item {
+        .list {
+            list-style: none;
+            li {
+                height: 4rem;
+                color: #fff;
+                line-height: 4rem;
+                font-size: 1.15rem;
+                background-color: #1D84B5;
+                margin-bottom: 0.5rem;
+                border-radius: 5px;
+
+                p {
+                    display: inline-block;
+                    padding-left: 1rem;
+                }
+
+                i {
+                    float: right;
+                    line-height: 4rem;
+                    padding-right: 1rem;
+                    font-size: 1.5rem;
+                }
+            }
+
+            li:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
+        }
+    }
+}

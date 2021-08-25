@@ -1,0 +1,22 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #2C394B;
+    min-height: 100vh;
+
+    main {
+        margin-top: 10rem;
+        color: #FFF;
+
+        label {
+            font-size: 2rem;
+        }
+
+        #nhentai-id-input {
+            padding: 0.75rem 0.5rem;
+            font-size: 1.25rem;
+        }
+    }
+}

@@ -1,7 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+}
+
+ol, ul {
+  list-style: none;
 }
 
 html {
@@ -9,171 +14,19 @@ html {
 }
 
 body {
+  background-color: #2C394B;
   min-height: 100vh;
-  background-color: #0A2239;
 }
-
-ol, ul {
-  padding-left: 0;
-}
-
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-}
-
-.hover-underline {
-  display: inline-block;
-  position: relative;
-  color: #fff;
-}
-
-.hover-underline::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-header {
-  height: 3.5rem;
-  background-color: #000;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 10000;
-}
-header .brand-name {
-  display: inline-block;
-}
-header .brand-name .brand-text a {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  line-height: 3.5rem;
-  padding: 0 1.15rem;
-  font-size: 1.15rem;
-}
-header .brand-name .brand-text a:hover {
-  background-color: #ccc;
-  color: #0A2239;
-}
-header .nav-menu {
-  float: right;
-}
-header .nav-menu > ul {
-  list-style: none;
-  padding-left: 0;
-}
-header .nav-menu > ul > li {
-  display: inline-block;
-  position: relative;
-}
-header .nav-menu > ul > li a {
-  display: inline-block;
-  text-decoration: none;
-  line-height: 3.5rem;
-  padding: 0 1.15rem;
-  color: #fff;
-}
-header .nav-menu > ul > li a:hover {
-  background-color: #ccc;
-  color: #0A2239;
-}
-header .nav-menu > ul > li .sub-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: #000;
-  text-align: left;
-}
-header .nav-menu > ul > li .sub-menu .sub-menu-list {
-  list-style: none;
-  min-width: 15rem;
-  padding-left: 0;
-}
-header .nav-menu > ul > li .sub-menu .sub-menu-list li {
-  display: block;
-  width: 100%;
-}
-header .nav-menu > ul > li .sub-menu .sub-menu-list li a {
-  display: inline-block;
-  width: 100%;
-}
-header .nav-menu > ul li:hover > a {
-  background-color: #ccc;
-  color: #0A2239;
-}
-header .nav-menu > ul li:hover .sub-menu {
-  display: block;
-}
-
-main {
-  margin-top: 3.5rem;
-}
-main .header {
-  height: 20rem;
-  text-align: center;
-  padding: 10rem 0;
-  margin-bottom: 5rem;
-}
-main .header .header-title {
-  color: #fff;
-  margin-bottom: 3rem;
-}
-main .header .header-description {
-  color: #ccc;
-  opacity: 0.8;
-}
-main .header .header-description .ffe {
-  color: #fff;
-  opacity: 1;
-  font-weight: 500;
-}
-main .header .header-description .ffe:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-main .list-items {
+body main {
   margin-top: 10rem;
+  color: #FFF;
 }
-main .list-items .items .title-items {
-  text-align: left;
-  color: #fff;
+body main label {
+  font-size: 2rem;
 }
-main .list-items .items .item {
-  margin-top: 1rem;
-}
-main .list-items .items h4 {
-  color: #fff;
-}
-main .list-items .items .list {
-  color: #fff;
-}
-main .list-items .items .list li {
-  font-size: 1.1rem;
-  margin-left: 3rem;
-  margin-bottom: 1rem;
-}
-main .list-items .items .list li a {
-  text-decoration: none;
-  color: #fff;
+body main #nhentai-id-input {
+  padding: 0.75rem 0.5rem;
+  font-size: 1.25rem;
 }
 
 /*# sourceMappingURL=index.css.map */
